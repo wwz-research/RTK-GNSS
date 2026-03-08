@@ -1,0 +1,90 @@
+# -------- Build artifacts --------
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Binaries and object files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.idb
+
+# Precompiled headers
+*.pch
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# -------- Visual Studio / MSVC --------
+.vs/
+*.sln.docstates
+*.user
+*.suo
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+ipch/
+
+# -------- Qt / others --------
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# -------- MATLAB --------
+*.asv
+*.m~
+*.fig~
+*.mat
+
+# -------- Data and results (adjust as needed) --------
+data/*.bin
+data/*.dat
+data/raw/**
+results/**
+local_*/
+*.private.*
+
+# -------- OS-specific --------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
