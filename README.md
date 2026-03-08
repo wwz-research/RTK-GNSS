@@ -1,7 +1,7 @@
 # RTK-GNSS
 基于 C++ 的 GNSS RTK 相对定位课程实践项目，针对 GPS+BDS，支持解析 NovAtel OEM7 二进制数据（RANGEB/EPHEM/PSRPOS 等），在单点定位与测速（SPP/SPV）基础上实现历元同步、单差/双差观测构建与 GF/MW 周跳检测、广播星历卫星轨道与钟差传播、对流层与高度截止角建模，以及基于 Eigen 的最小二乘 + LAMBDA 与 EKF 两种 RTK 解算模式，提供离线文件和实时 TCP 流两种输入，并配套 MATLAB 结果分析与 ENU 误差可视化。
 
-> 项目实验报告：[点击查看](项目实验报告.pdf)
+> 项目实验报告：[项目实验报告.pdf](项目实验报告.pdf)
 
 ## 项目简介
 
